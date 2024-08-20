@@ -1,0 +1,231 @@
+@media (min-width: 368px) {
+
+    .eco-credit-calculator-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eco-credit-calculator-container-left {
+        width: 100%;
+    }
+
+    .eco-credit-calculator-container-left img {
+        width: 100%;
+    }
+
+    .eco-credit-calculator-container-right {
+        width: 80%;
+        margin: 2rem auto;
+        background-color: rgb(226, 226, 226);
+        border-radius: 2rem;
+        padding: 2rem;
+    }
+
+    .eco-credit-calculator-container-right h1 {
+        font-size: 1.5rem;
+        margin-block: 1rem;
+        font-family: 'Poppins';
+    }
+
+    .eco-calculator-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .eco-calculator-form-grid label,
+    .eco-calculator-form-grid input {
+        grid-column: auto;
+        width: 90%;
+    }
+
+    .eco-calculator-form-grid label {
+        font-family: 'Roboto';
+    }
+
+    .eco-calculator-form-grid input {
+        background-color: white;
+        margin-bottom: 1rem;
+        height: 30px;
+        border-radius: 2rem;
+        padding-left: 1rem;
+    }
+
+    .eco-calculator-form-grid button {
+        display: block;
+        margin: 0 auto;
+        background-color: #65B741;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 1rem;
+        width: 40%;
+    }
+
+    .result-section {
+        margin-block: 1rem;
+    }
+
+    .result-section h2 {
+        font-family: 'Poppins';
+    }
+
+    .carbon-emission {
+        color: rgb(234, 57, 57);
+        margin: 0;
+    }
+
+    .carbon-emission:nth-of-type(2) {
+        margin-bottom: 1rem;
+    }
+
+    .trees {
+        color: #65B741;
+        margin: 0;
+    }
+
+    .eco-history-container-1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .eco-history-container-left {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .eco-history-container-left img {
+        width: 100%;
+    }
+
+    .eco-history-container-right {
+        width: 80%;
+        margin: 2rem auto;
+        background-color: rgb(226, 226, 226);
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .eco-history-container-right h2 {
+        font-family: 'Poppins';
+        margin-bottom: 2rem;
+    }
+
+    .eco-history-container-right table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+
+    .eco-history-container-right th,
+    .eco-history-container-right td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .eco-history-container-right th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .eco-history-container-right tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .eco-history-container-right tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .form-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .upload-download-section h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        font-family: 'Poppins';
+    }
+
+    .upload-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        /* Set the desired height */
+        border: 2px dashed #ccc;
+        /* Dashed border */
+        border-radius: 5px;
+        /* Rounded corners */
+        padding: 20px;
+        width: 100%;
+        margin-block: 2rem;
+    }
+
+    .download-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        /* Set the desired height */
+        border: 2px dashed #ccc;
+        /* Dashed border */
+        border-radius: 5px;
+        /* Rounded corners */
+        padding: 20px;
+        width: 100%;
+        margin-block: 2rem;
+        cursor: pointer;
+    }
+
+
+    .upload-container {
+        text-align: center;
+        width: 80%;
+    }
+
+    .upload-container h2 {
+        margin: 0;
+    }
+
+    .upload-section:hover {
+        cursor: pointer;
+    }
+
+    .upload-container:hover {
+        cursor: pointer;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .eco-credit-calculator-container,
+    .eco-history-container-1 {
+        display: flex;
+        flex-direction: row;
+        padding: 4rem;
+    }
+
+    .eco-credit-calculator-container-left {
+        width: 50%;
+    }
+
+    .eco-credit-calculator-container-right {
+        margin: 2rem;
+        width: 50%;
+    }
+
+    .eco-history-container-left {
+        order: 2;
+        width: 50%;
+    }
+
+    .eco-history-container-right {
+        order: 1;
+        width: 50%;
+    }
+
+}

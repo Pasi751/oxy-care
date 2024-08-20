@@ -1,0 +1,59 @@
+.admin-sign-in-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* height: 40vh; */
+  }
+  
+  .admin-sign-in-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-sign-in-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-sign-in-form label {
+    font-weight: bold;
+  }
+  
+  .admin-sign-in-form input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .admin-sign-in-form .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .admin-sign-in-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .admin-sign-in-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .admin-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .back-btn{
+    margin-block: 1rem;
+  }

@@ -1,0 +1,115 @@
+
+@media (min-width: 368px){
+    .login-container{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    
+    .login-container-left{
+        width: 100%;
+    }
+
+    .login-container-right{
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    
+    .login-container-left img{
+        width: 100%;
+    }
+
+    .form-container-login{
+        font-family: "Poppins", sans-serif;
+        border-radius: 2rem;
+        padding: 2rem;
+        background-color: rgb(226, 226, 226);
+        margin-block: 2rem;
+        text-align: center;
+    }
+
+    .form-container-login h1{
+        font-size: 1.8rem;
+        margin-block: 1rem;
+    }
+
+    .login-form input,
+    .form-container-login select{
+        width: 90%;
+        height: 2rem;
+        background-color: rgb(255, 255, 255);
+        padding-left: 1rem;
+        border-radius: 1rem;
+        border: none;
+        margin-block: 8px;
+    }
+
+    .form-container-login button{
+        width: 150px;
+        color: white;
+        background-color: #65B741;
+        margin-block: 1rem;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+
+    .form-container-login select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        /* Additional styling if needed */
+        padding: 0.2rem;
+        padding-left: 1rem;
+        border: none;
+        border-radius: 1rem;
+        width: 90%;
+        margin-block: 8px;
+    }
+
+    .signup-links-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .signup-link{
+        margin-block: 2px;
+        font-size: 15px;
+    }
+
+    .error-message{
+        color: red;
+    }
+      
+}
+
+@media (min-width: 768px){
+    .login-container{
+        flex-direction: row;
+        margin-block: 1rem;
+    }
+
+    .login-container-right{
+        padding: 6rem;
+    }
+
+    .signup-links-container{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .signup-link{
+        text-align: center;
+    }
+
+    .form-container-login h1{
+        font-size: 2.2rem;
+    }
+}
+
+

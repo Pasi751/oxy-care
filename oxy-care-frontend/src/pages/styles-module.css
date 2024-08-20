@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 2rem 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    height: 80vh;
+  }
+ 
+  
+  .label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+  }
+  
+  .editor {
+    margin-top: 1rem;
+    height: 400px;
+  }
+
+
+  .wrapper .btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #65B741;
+    margin: 1.2rem;
+    border-radius: 1rem;
+    width: 100px;
+    color: white;
+  }

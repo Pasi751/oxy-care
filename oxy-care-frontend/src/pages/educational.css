@@ -1,0 +1,136 @@
+
+
+.educational-container{
+    margin-block: 5rem;
+}
+
+.educational-container-0{
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+   
+}
+
+.educational-page h1{
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #2d8f03;
+}
+
+.educational-page p{
+    padding: 0 4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.educational-page img{
+    border-radius: 2rem;
+    padding: 4rem;
+    width: 100%;
+}
+
+
+.educational-container-1{
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+   
+}
+
+.educational-container-2{
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+}
+
+.proposal-container{
+    padding-bottom: 2rem;
+}
+
+.educational-container-1 h1,
+.educational-container-2 h1,
+.educational-container-0 h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #2d8f03;
+}
+
+.glossary-container{
+    padding: 2rem 4rem;
+}
+
+.glossary-container h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.glossary-container p{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.media-container{
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+}
+
+.media-container video{
+    border-radius: 2rem;
+}
+
+.educational-container-2 .media-container h1{
+    font-size: 1.4rem;
+    color: black;
+}
+
+.media-container-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.media-container-row video{
+    align-self: center;
+    width: 60%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination .active {
+    background-color: #0056b3;
+  }
+
+@media (min-width: 368px){
+    .educational-container-1 h1,
+    .educational-container-2 h1,
+    .educational-container-0 h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #2d8f03;
+}
+}

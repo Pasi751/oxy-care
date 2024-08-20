@@ -1,0 +1,77 @@
+@media (min-width: 368px){
+
+    .agriculturist-homepage-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .agriculturist-homepage-container-left{
+        width: 100%;
+    }
+
+    .agriculturist-homepage-container-left img{
+        width: 100%;
+    }
+
+    .agriculturist-homepage-container-right{
+        padding: 2rem;
+    }
+
+    .agriculturist-homepage-container-right h1{
+        font-family: 'Poppins';
+        text-align: center;
+        color: #65B741;
+        font-size: 2rem;
+    }
+
+    .agriculturist-homepage-container-right h2{
+        font-family: 'Poppins';
+        text-align: center;
+        color: black;
+        font-size: 1.8rem;
+        
+    }
+
+    .agriculturist-homepage-container-right p{
+        font-family: 'Roboto';
+        text-align: center;
+        margin-block: 1rem;
+    }
+}
+
+@media (min-width: 768px){
+
+    .agriculturist-homepage-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .agriculturist-homepage-container-left{
+        padding: 2rem;
+        width: 40%;
+    }
+
+    .agriculturist-homepage-container-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding-block: 10rem;
+        width: 60%;
+    }
+
+    .agriculturist-homepage-container-right h1{
+        text-align: left;
+    }
+
+    .agriculturist-homepage-container-right h2{
+        text-align: left;
+    }
+
+    .agriculturist-homepage-container-right p{
+        text-align: left;
+    }
+
+}

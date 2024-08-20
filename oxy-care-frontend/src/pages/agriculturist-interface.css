@@ -1,0 +1,39 @@
+.agriculturist-interface-container {
+    margin-block: 5rem;
+}
+
+
+.agriculturist-interface-container-1 {
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+
+}
+
+.no-data {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.agriculturist-interface-container-1 .proposal-container {
+    padding-bottom: 2rem;
+}
+
+.agriculturist-interface-container-1 h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #2d8f03;
+}
+
+
+@media (min-width: 368px) {
+
+    .agriculturist-interface-container-1 h1{
+        font-family: 'Poppins', sans-serif;
+        padding: 2rem;
+        font-size: 1.8rem;
+        color: #2d8f03;
+    }
+}

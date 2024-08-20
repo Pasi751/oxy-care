@@ -1,0 +1,116 @@
+@media (min-width: 368px) {
+
+    .agri-hire-container-1,
+    .agri-hire-container-2,
+    .agri-hire-container-3 {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .agri-hire-container-1 img,
+    .agri-hire-container-2 img,
+    .agri-hire-container-3 img {
+        width: 100%;
+    }
+
+    .agri-hire-form {
+        margin: 2rem auto;
+        background-color: rgb(226, 226, 226);
+        padding: 2rem;
+        border-radius: 2rem;
+    }
+
+    .agri-hire-form h1 {
+        font-family: 'Poppins';
+        font-size: 1.8rem;
+        margin-block: 1rem;
+    }
+
+    .agri-hire-form label {
+        font-family: 'Roboto';
+    }
+
+    .agri-hire-form input {
+        width: 100%;
+        background-color: white;
+        height: 30px;
+        border-radius: 1rem;
+        padding: 0 1rem;
+    }
+
+    .agri-hire-form textarea {
+        width: 100%;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 0 1rem;
+        height: 100px;
+    }
+
+    .agri-hire-form select {
+        width: 100%;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 0 1rem;
+        height: 30px;
+    }
+
+    .agri-hire-form button {
+        display: block;
+        margin: 1rem auto;
+        background-color: #65B741;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 1rem;
+        width: 40%;
+    }
+
+    .agri-hire-form input,
+    .agri-hire-form textarea {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .agri-hire-container-1,
+    .agri-hire-container-2,
+    .agri-hire-container-3 {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .agri-hire-container-1-left {
+        padding-block: 10rem 1rem;
+        width: 50%;
+    }
+
+    .agri-hire-container-1-right {
+        padding: 2rem;
+        width: 50%;
+    }
+
+    .agri-hire-container-1-right input {
+        width: 90%;
+    }
+
+    .agri-hire-container-2-left {
+        order: 2;
+        width: 50%;
+        padding-block: 10rem;
+    }
+
+    .agri-hire-container-2-right {
+        order: 1;
+        width: 50%;
+    }
+
+    .agri-hire-container-3-left {
+        width: 50%;
+    }
+
+    .agri-hire-container-3-right {
+        width: 50%;
+    }
+}

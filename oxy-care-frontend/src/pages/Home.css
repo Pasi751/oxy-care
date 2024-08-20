@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+@media (min-width: 368px){
+    .home-top-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-top-container-left{
+        width: 100%;
+        padding-top: 3rem;
+        
+    }
+
+    .home-top-container-left img{
+        width: 100%;
+    }
+
+    .home-top-container-right{
+        width: 100%;
+        padding: 0 2rem;
+        margin: 0;
+    }
+
+    .home-top-container-right h1{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #65B741;
+    }
+
+    .home-top-container-right p{
+        text-align: center;
+        margin-block: 1rem;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.3;
+    }
+
+    .home-card-container{
+        display: flex;
+        flex-direction: column;
+        margin-block: 2rem;
+    }
+
+    .card-container-title h1{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #65B741;
+        margin-block: 1rem;
+    }
+
+    .card-container{
+        padding: 0 2rem ;
+    }
+
+    .home-bottom-container{
+        display: flex;
+        flex-direction: column;
+        margin-block: 2rem;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .home-bottom-container-left{
+        text-align: center;
+    }
+
+    .home-bottom-container-left h1{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #65B741;
+        margin-block: 1rem;
+    }
+    
+    .home-bottom-container-left p{
+        text-align: center;
+        margin-block: 1rem;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.3;
+    }
+
+    .home-bottom-container-right{
+        width: 100%;
+    }
+
+    .home-bottom-container-right img{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 100%;
+        padding: 10px 10%;
+    }
+    #card-area{
+        width: 100%;
+    }
+    .box-area{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+
+    .home-bottom-image-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home-bottom-image-container-left{
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .home-bottom-image-container-left h1{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #65B741;
+        margin-block: 1rem;
+    }
+
+    .home-bottom-image-container-left p{
+        text-align: center;
+        margin-block: 1rem;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.3;
+    }
+
+    .home-bottom-image-container-right{
+        width: 100%;
+        padding: 2rem;
+    }
+    
+}
+
+@media (min-width: 768px){
+    .home-top-container{
+        display: flex;
+        flex-direction: row;
+        margin-block: 3rem;
+    }
+
+    .home-top-container-right{
+        padding: 2rem;
+        padding-top: 6rem;
+    }
+
+    .home-top-container-right h1{
+        font-size: 2rem;
+        margin-block: 2rem;
+        text-align: left;
+    }
+
+    .home-top-container-right p{
+        text-align: left;
+    }
+
+    .card-container-title h1{
+        font-size: 2rem;
+        margin-block: 2rem;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        margin-block: 3rem;
+    }
+
+    .card-container-title h1{
+        margin-block: 1rem;
+        font-size: 2rem;
+    }
+
+    .home-bottom-container {
+        display: flex;
+        flex-direction: row;
+        margin-block: 3rem;
+    }
+
+    .home-bottom-container-left {
+        width: 50%;
+        padding: 2rem;
+    }
+
+    .home-bottom-container-left h1{
+        margin-block: 3rem;
+    }
+
+
+    .home-bottom-container-right{
+        width: 50%;
+    }
+    
+    .card{
+        margin: 0 1rem;
+    }
+
+    .home-bottom-image-container{
+        flex-direction: row;
+        margin-block: 4rem;
+    }
+
+    .home-bottom-image-container-left{
+        order: 2;
+    }
+
+    .home-bottom-image-container-right{
+        order: 1;
+    }
+
+    .home-bottom-image-container-left h1{
+        margin-block: 3rem;
+    }
+
+}

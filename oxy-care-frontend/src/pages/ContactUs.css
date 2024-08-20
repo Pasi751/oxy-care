@@ -1,0 +1,132 @@
+@media (min-width: 368px) {
+    .contact-us-container {
+        display: flex;
+        flex-direction: column;
+        margin-block: 4rem;
+        padding: 0 2rem;
+
+    }
+
+    .contact-us-container h1 {
+        order: 1;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        color: #65B741;
+    }
+
+    .contact-us-container p {
+        text-align: center;
+        margin-block: 1rem;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.3;
+    }
+
+    .contact-us-container-right {
+        order: 2;
+        width: 100%;
+        align-items: center;
+    }
+
+    .form-container{
+        text-align: center;
+    }
+
+    .contact-us-container-right img {
+        width: 100%;
+    }
+
+    .contact-us-container-left {
+        order: 3;
+        margin-block: 2rem;
+
+    }
+
+    input,
+    textarea,
+    .inquiry-text-field,
+    select,
+    .agriculturist-form-row-5 input[type="file"] {
+        appearance: none;
+        border: none;
+        background: none;
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        padding: 0;
+        margin: 0;
+        outline: none;
+    }
+
+    button {
+        /* Reset default button styles */
+        appearance: none;
+        border: none;
+        background: none;
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        outline: none;
+        /* Additional styles can be added here */
+    }
+
+    .form-container {
+        margin-block: 2rem;
+    }
+
+    .form-container input::placeholder,
+    .form-container textarea::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .form-container input,.form-container textarea{
+        width: 90%;
+        height: 2rem;
+        background-color: rgb(226, 226, 226);
+        padding-left: 1rem;
+        border-radius: 1rem;
+    }
+
+    .contact-us-btn{
+
+        color: white;
+        background-color: #65B741;
+        font-family: 'Poppins', sans-serif;
+        width: 10rem;
+        height: 40px;
+        border-radius: 1rem;
+    }
+
+    .contact-us-btn:hover{
+        background-color: #4c8a31;
+    }
+}
+
+@media (min-width: 768px){
+    .contact-us-container{
+        flex-direction: row;
+        margin-block: 7rem;
+    }
+
+    .contact-us-container-left{
+        order: 1;
+        width: 50%;
+        text-align: left;
+    }
+
+    .contact-us-container-right{
+        order: 2;
+        width: 50%;
+    }
+
+    .form-container textarea {
+        height: 6rem;
+    }
+
+    
+}

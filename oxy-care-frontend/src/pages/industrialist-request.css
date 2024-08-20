@@ -1,0 +1,58 @@
+.accept-btn {
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #96da79;
+    border-radius: 2rem;
+}
+
+.industrialist-request-container .decline-btn {
+    margin-left: 1.5rem;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(242, 84, 84);
+    border-radius: 2rem;
+}
+
+.agriclutirst-container-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agriclutirst-container-header-flex h2 {
+    font-family: 'Poppins';
+}
+
+.request-entry {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.no-data {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.agriculturist-interface-container-4 {
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+
+.agriculturist-interface-container-4 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #2d8f03;
+}

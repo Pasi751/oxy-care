@@ -1,0 +1,58 @@
+.update-agriculturist-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.update-agriculturist-container h1 {
+
+    font-family: 'Poppins';
+    text-align: left;
+    margin-block: 2rem;
+}
+
+.update-agriculturist-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.update-agriculturist-container label {
+    font-weight: bold;
+}
+
+.update-agriculturist-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.update-agriculturist-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-agriculturist-container button:hover {
+    background-color: #0056b3;
+}
+
+.button-group{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.update-agriculturist{
+    width: 50%;
+    margin-left: 9rem;
+}
+
+.go-back-industrialist{
+    
+    width: 50%;
+}

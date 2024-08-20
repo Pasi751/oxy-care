@@ -1,0 +1,50 @@
+.agriculturist-interface-container-3 h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #2d8f03;
+}
+
+.agriculturist-interface-container-3 {
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+}
+
+.agriculturist-interface-container-3 {
+    padding: 2rem;
+}
+
+.header-container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earnings-table-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.withdraw-button {
+    align-self: flex-end;
+    margin-block: 2rem;
+    background-color: #2d8f03;
+    color: white;
+    border-radius: 1rem;
+    width: 200px;
+    height: 30px;
+}
+
+.response-container {
+    padding-bottom: 2rem;
+
+}
+
+.no-data {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}

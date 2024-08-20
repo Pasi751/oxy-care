@@ -1,0 +1,22 @@
+
+.card{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-block: 1.5rem;
+    color: black;
+}
+
+.card h2{
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-block: 1rem;
+    text-align: center;
+}
+
+.card-description{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}

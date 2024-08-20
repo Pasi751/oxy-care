@@ -1,0 +1,76 @@
+@media (min-width: 368px){
+
+    .industrialist-homepage-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .industrialist-homepage-container-left{
+        width: 100%;
+    }
+
+    .industrialist-homepage-container-left img{
+        width: 100%;
+    }
+
+    .industrialist-homepage-container-right{
+        padding: 2rem;
+    }
+
+    .industrialist-homepage-container-right h1{
+        font-family: 'Poppins';
+        text-align: center;
+        color: #65B741;
+        font-size: 2rem;
+    }
+
+    .industrialist-homepage-container-right h2{
+        font-family: 'Poppins';
+        text-align: center;
+        color: black;
+        
+    }
+
+    .industrialist-homepage-container-right p{
+        font-family: 'Roboto';
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+
+    .industrialist-homepage-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .industrialist-homepage-container-left{
+        padding: 2rem;
+        width: 40%;
+    }
+
+    .industrialist-homepage-container-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding-block: 10rem;
+        width: 60%;
+    }
+
+    .industrialist-homepage-container-right h1{
+        text-align: left;
+    }
+
+    .industrialist-homepage-container-right h2{
+        text-align: left;
+    }
+
+    .industrialist-homepage-container-right p{
+        text-align: left;
+        margin-block: 1rem;
+    }
+
+}

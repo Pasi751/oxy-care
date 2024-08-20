@@ -1,0 +1,199 @@
+@media (min-width: 368px) {
+    .sign-up-industrialist-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up-industrialist-container-left {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .sign-up-industrialist-container-left img {
+        width: 100%;
+    }
+
+    .sign-up-industrialist-container-right {
+        width: 100%;
+        margin-block: 2rem;
+        padding: 2rem;
+    }
+
+    .signup-industrialist-form-container {
+        padding: 2rem;
+        background-color: rgb(226, 226, 226);
+        border-radius: 1rem;
+    }
+
+    .signup-industrialist-form {
+        text-align: center;
+        margin-block: 1rem;
+    }
+
+    .signup-industrialist-form-container h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .signup-industrialist-form input,
+    .signup-industrialist-form select {
+        margin-block: 5px;
+        width: 100%;
+        background-color: white;
+        height: 33px;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        color: #888888;
+    }
+
+    .signup-industrialist-form select::placeholder {
+        color: rgb(186, 186, 186);
+    }
+
+    .signup-industrialist-form button {
+        color: white;
+        background-color: #65B741;
+        font-family: 'Poppins', sans-serif;
+        width: 10rem;
+        height: 40px;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .signup-industrialist-form select {
+        color: #888888;
+    }
+
+    .input-file1 {
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .input-file1 input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .input-file1 #button {
+        width: 100%;
+        text-align: left;
+        background-color: white;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        color: #888888;
+        cursor: pointer;
+    }
+
+    .input-file1 #val {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        cursor: pointer;
+        color: #888888;
+        padding-left: 1rem;
+    }
+
+    .input-file2 {
+        position: relative;
+        width: 100%;
+    }
+
+    .input-file2 input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+
+    .input-file2 #button {
+        width: 100%;
+        text-align: left;
+        background-color: white;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        margin: 0;
+        color: #888888;
+        cursor: pointer;
+    }
+
+    .input-file2 #val {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        cursor: pointer;
+        color: #888888;
+        padding-left: 2.4rem;
+    }
+
+    @media (min-width: 768px) {
+        .sign-up-industrialist-container {
+            display: flex;
+            flex-direction: row;
+            margin-block: 3rem;
+        }
+
+        .sign-up-industrialist-container-right {
+            padding: 2rem;
+        }
+
+        .industrialist-form-row-1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .industrialist-form-row-2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .industrialist-form-row-3 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .industrialist-form-row-4 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .industrialist-form-row-5 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .signup-industrialist-form input,
+        .signup-industrialist-form select {
+            width: 45%;
+        }
+
+        .input-file1,
+        .input-file2 {
+            width: 50%;
+        }
+
+        .input-file1 #button,
+        .input-file2 #button {
+            width: 90%;
+        }
+
+        .input-file1 input,
+        .input-file2 input {
+            top: 15px;
+            width: 90%;
+            cursor: pointer;
+        }
+
+        .input-file2 #button {
+            margin-left: 1.6rem;
+        }
+    }
+}

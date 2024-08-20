@@ -1,0 +1,59 @@
+.manage-industrialist-container {
+    margin: 4rem auto;
+    width: 80%;
+    padding: 3rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 2rem;
+}
+
+.manage-industrialist-container h1 {
+    font-family: 'Poppins';
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.manage-industrialist-container td .update {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 1rem;
+}
+
+.manage-industrialist-container td .delete {
+    background-color: #f44336;
+    color: white;
+    border-radius: 1rem;
+}
+
+td button:hover {
+    opacity: 0.8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,90 @@
+@media (min-width: 368px) {
+
+    .eco-history-container-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .eco-history-container-left{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .eco-history-container-left img{
+        width: 100%;
+    }
+
+    .eco-history-container-right{
+        width: 80%;
+        margin: 2rem auto;
+        background-color: rgb(226, 226, 226);
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .eco-history-container-right h2{
+        font-family: 'Poppins';
+        margin-bottom: 2rem;
+    }
+
+    .eco-history-container-right table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+    
+    .eco-history-container-right th,
+    .eco-history-container-right td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    .eco-history-container-right th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    
+    .eco-history-container-right tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .eco-history-container-right tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .download-report-btn{
+        margin-block: 2rem;
+        width: 150px;
+        height: 30px;
+        background-color: #65B741;
+        border-radius: 1rem;
+        color: white;
+    }
+    
+}
+
+
+@media (min-width: 768px){
+
+    .eco-history-container-1{
+        display: flex;
+        flex-direction: row;
+        padding: 4rem;
+    }
+
+    
+
+    .eco-history-container-left{
+        order: 2;
+        width: 50%;
+    }
+
+    .eco-history-container-right{
+        order: 1;
+        width: 50%;
+    }
+
+}

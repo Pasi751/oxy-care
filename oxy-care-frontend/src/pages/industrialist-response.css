@@ -1,0 +1,22 @@
+.agriculturist-interface-container-2 h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #2d8f03;
+}
+
+.agriculturist-interface-container-2 {
+    width: 80%;
+    margin: 4rem auto;
+    background-color: rgb(232, 232, 232);
+    border-radius: 2rem;
+}
+
+@media (min-width: 368px) {
+    .agriculturist-interface-container-2 h1 {
+        font-family: 'Poppins', sans-serif;
+        padding: 2rem;
+        font-size: 1.8rem;
+        color: #2d8f03;
+    }
+}

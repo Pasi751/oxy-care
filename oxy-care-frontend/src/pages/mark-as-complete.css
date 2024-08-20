@@ -1,0 +1,140 @@
+/* CSS for the mark-as-complete component */
+
+.mark-as-complete-main-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+}
+
+.mark-as-complete-image-container{
+    width: 50%;
+    padding: 1rem;
+}
+
+
+.mark-as-complete-image-container img{
+    width: 100%;
+}
+
+.mark-as-complete-container {
+    width: 50%;
+    margin: 4rem auto;
+    padding: 2rem;
+    padding-block: 3rem;
+    max-height: 400px;
+    border-radius: 2rem;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.mark-as-complete-container h1 {
+    font-family: "Poppins";
+    font-size: 2rem;
+    text-align: center;
+    color: #65B741;
+}
+
+.checklist {
+    margin-top: 20px;
+}
+
+.checklist-item {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checklist-item input[type="checkbox"] {
+    display: none;
+}
+
+.checklist-item input[type="checkbox"]+span {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.checklist-item input[type="checkbox"]+span:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.checklist-item input[type="checkbox"]:checked+span:before {
+    background-color: #65B741;
+    border-color: #65B741;
+}
+
+.checklist-item input[type="checkbox"]:checked+span:after {
+    content: '\2713';
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.mark-as-complete-btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #65B741;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.go-back-btn{
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #4899d6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.mark-as-complete-btn:hover {
+    background-color: #328c0c;
+}
+
+.go-back-btn:hover{
+    background-color: #115385;
+}
+
+.mark-as-complete-btn-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px){
+
+    .mark-as-complete-main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .mark-as-complete-container{
+        width: 100%;
+    }
+
+    .mark-as-complete-image-container{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,24 @@
+.submit-proposal-container{
+
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.agri-hire-btn-container{
+    display: flex;
+}
+
+.agri-hire-btn-container .go-back-btn:hover{
+    background-color: none;
+}
+
+.agri-hire-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.agri-hire-form input,
+.agri-hire-form textarea,
+.agri-hire-form select{
+    width: 80%;
+}

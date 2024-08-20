@@ -1,0 +1,49 @@
+.proposal-details-container{
+    width: 80%;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.proposal-detail-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.proposal-details-container h2{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.proposal-details-container h3{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.proposal-details-container p{
+    font-family: "Roboto", sans-serif;
+}
+
+.proposal-details-container button{
+    align-self: flex-end;
+    color: white;
+    width: 15%;
+    height: 30px;
+    font-size: 18px;
+    background-color: #65B741;
+    border-radius: 2rem;
+}
+
+@media (max-width: 768px){
+    .proposal-details-container button{
+        width: 40%;
+    }
+}
